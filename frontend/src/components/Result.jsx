@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 
-export default function Result() {
+export default function Result({summary}) {
     const textAreaRef = useRef(null)
     const [text, setText] = React.useState("")
     const copyText = () => {
@@ -17,7 +17,7 @@ export default function Result() {
     const handleDownload = ()=>{
         //blob - binary large object in the form of text
 
-        if(text.trim() ==='') {
+        if(summary.trim() ==='') {
             console.log("No text to download") 
             return;
 
@@ -45,9 +45,10 @@ export default function Result() {
           <textarea
             readOnly
             ref={textAreaRef}
-            value={text}
+            value={summary}
             onChange={(e)=>setText(e.target.value)}
             rows="6"
+            
             placeholder="Your summarized text will appear here..."
             className="w-full px-6 py-4 text-lg text-gray-700 bg-white/90 backdrop-blur-sm rounded-xl border-2 border-gray-200 
             shadow-md hover:shadow-lg transition-shadow duration-300 resize-none
