@@ -20,7 +20,7 @@
 
 | Real-time Summarization | Multi-length Support | Dark Mode |
 |-------------------------|----------------------|-----------|
-| ![Demo1](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3Z6N3VxN3J3M3V3Z2x0MWF3dTh4dGc5b2h6a2h4NnZ5bGZ6dXJxZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif) |![Demo1](demo\medium.png)|![Demo1](demo\small.png)|
+| ![Demo1](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3Z6N3VxN3J3M3V3Z2x0MWF3dTh4dGc5b2h6a2h4NnZ5bGZ6dXJxZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif) |![Demo1](demo/medium.png)|![Demo1](demo/small.png)|
 
 ---
 
