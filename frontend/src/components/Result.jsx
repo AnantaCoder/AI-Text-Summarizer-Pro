@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 
 export default function Result({summary}) {
     const textAreaRef = useRef(null)
-    const [text, setText] = React.useState("")
+    const [text, setText] = React.useState(summary||"")
     const copyText = () => {
         // const text = document.querySelector('textarea').value
         if(textAreaRef.current){
@@ -16,8 +16,8 @@ export default function Result({summary}) {
     }
     const handleDownload = ()=>{
         //blob - binary large object in the form of text
-
-        if(summary.trim() ==='') {
+        
+        if(!text || text.trim() ==='') {
             console.log("No text to download") 
             return;
 
