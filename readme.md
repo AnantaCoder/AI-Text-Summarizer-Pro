@@ -30,8 +30,8 @@
   
 | **Layer**       | **Technologies**                                                                 |
 |-----------------|----------------------------------------------------------------------------------|
-| **Frontend**    | React 18, Tailwind CSS, React Icons, Axios, react-spinners                        |
-| **Backend**     | Django 4.2, Django REST Framework, PostgreSQL, JWT Authentication                |
+| **Frontend**    | React 19.2, Tailwind CSS, React Icons, Axios, react-spinners                        |
+| **Backend**     | Django 5.2, Django REST Framework, PostgreSQL, JWT Authentication                |
 | **AI Engine**   | Hugging Face Transformers (allenai/led-base-16384), ONNX Runtime, PyTorch  
 </div>
 ---
