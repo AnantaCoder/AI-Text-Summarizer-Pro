@@ -3,8 +3,8 @@
 <div align="center">
   <img src="demo/medium.png" width="800" alt="Project Demo">
   
-  [![React](https://img.shields.io/badge/React-18.2.0-%2361DAFB?logo=react)](https://reactjs.org/)
-  [![Django](https://img.shields.io/badge/Django-4.2-%23092E20?logo=django)](https://www.djangoproject.com/)
+  [![React](https://img.shields.io/badge/React-19.2.0-%2361DAFB?logo=react)](https://reactjs.org/)
+  [![Django](https://img.shields.io/badge/Django-5.2-%23092E20?logo=django)](https://www.djangoproject.com/)
   [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Transformers-orange?logo=huggingface)](https://huggingface.co/)
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
